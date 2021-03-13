@@ -21,8 +21,6 @@ const StyledButton = styled.button`
 }`;
 
 const Button = (props) => (
-    <StyledButton onClick={props.onClick}>
-        {props.text}
-    </StyledButton>
+	<StyledButton onClick={props.onClick}>{props.text}</StyledButton>
 );
 export default Button;

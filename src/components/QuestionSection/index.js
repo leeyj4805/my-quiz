@@ -25,7 +25,7 @@ const QuestionTitle = styled.div`
 const QuestionSection = ({ currentNo }) => (
     <QuestionSectionWrapper>
         <PageLabel>
-            <span>{QUIZZES[currentNo].id}</span>{QUIZZES.length}
+            <span>{QUIZZES[currentNo].id}</span>/{QUIZZES.length}
         </PageLabel>
         <QuestionTitle>{QUIZZES[currentNo].question}</QuestionTitle>
     </QuestionSectionWrapper>
